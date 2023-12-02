@@ -1,5 +1,5 @@
 defmodule Day_1 do
-  @config %Day{day: 1, test_result_part_one: "142", test_result_part_two: "281"}
+  @config %TestConfig{test_result_part_one: "142", test_result_part_two: "281"}
   def config do
     @config
   end
