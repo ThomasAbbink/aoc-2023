@@ -58,10 +58,8 @@ defmodule Day_2 do
       |> Enum.group_by(&elem(&1, 0), &elem(&1, 1))
     end)
     |> Enum.map(fn values ->
-      IO.inspect(values)
       Enum.max(values[:green]) * Enum.max(values[:red]) * Enum.max(values[:blue])
     end)
     |> Enum.sum()
-    |> dbg()
   end
 end
