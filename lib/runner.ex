@@ -12,6 +12,6 @@ defmodule Runner do
   end
 
   defp load_input(index) do
-    File.read!("lib/input/day_#{index + 1}/input.txt")
+    File.read!("lib/input/day_#{index + 1}.txt")
   end
 end
